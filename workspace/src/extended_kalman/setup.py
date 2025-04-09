@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'kalman_filter'
+package_name = 'extended_kalman'
 
 setup(
     name=package_name,
@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'Ekalman = kalman_filter.extendedKalman:main',
+            'kalman = extended_kalman.extendedKalman:main'
         ],
     },
 )
