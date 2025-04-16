@@ -48,6 +48,8 @@ class extendedKalman(Node):
         self.sigma_z_x = 0.005 
         self.sigma_z_y = 0.005  
 
+        #Definição de raio de giro do robô e dt
+
         self.v = 0.5
         self.raio = 2
         self.w = self.v / self.raio
