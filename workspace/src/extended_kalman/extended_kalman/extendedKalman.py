@@ -40,7 +40,6 @@ class ExtendedKalmanFilter(Node):
         self.sigma_w = math.radians(0.01)
         self.sigma_z_x = 0.005
         self.sigma_z_y = 0.005
-
         self.P = np.eye(3) * 0.01
         self.received_odom = False
 
